@@ -1,0 +1,28 @@
+.search {
+    border-radius: 10px;
+    background-color: #f9fbfc;
+    border: 2px solid #202329;
+    margin: 0 24px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1e1e1f;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7), 0px 0px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .search::placeholder {
+      color: #a5a5a5;
+      font-family: 'Montserrat';
+      font-weight: 400;
+  }
+  
+  .search:focus {
+      outline-color: #61dafa;
+  }
+  
+  .search:hover {
+    font-size: 30px;
+  }
